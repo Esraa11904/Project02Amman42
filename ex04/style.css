@@ -1,0 +1,73 @@
+/* 1. Universal Reset on the entire page */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #0f172a;
+    margin-bottom: 40px;
+}
+
+.comparison-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Base styling for both comparison boxes */
+.box {
+    width: 300px;
+    padding: 20px;
+    border: 10px solid #2563eb;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.box h2 {
+    color: #1e293b;
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+}
+
+.box p {
+    color: #475569;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.box .note {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #1d4ed8;
+}
+
+/* 2. Overriding box-sizing specifically for content-box comparison */
+.content-box {
+    box-sizing: content-box;
+    background-color: #eff6ff;
+}
+
+/* Explicitly setting border-box for clarity */
+.border-box {
+    box-sizing: border-box;
+    background-color: #f0fdf4;
+    border-color: #16a34a;
+}
+
+.border-box .note {
+    color: #15803d;
+}
