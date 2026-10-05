@@ -1,0 +1,91 @@
+/* Basic Reset & Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f5f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #1e293b;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #334155;
+    margin: 30px 0 15px 0;
+}
+
+/* 1. Color Swatch Palette */
+.palette-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.swatch {
+    width: 180px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Named Color */
+.named {
+    background-color: crimson;
+}
+
+/* 6-Digit HEX Code */
+.hex {
+    background-color: #10b981;
+}
+
+/* RGB Color */
+.rgb {
+    background-color: rgb(59, 130, 246);
+}
+
+/* RGBA Color with Alpha Transparency */
+.rgba {
+    background-color: rgba(139, 92, 246, 0.7);
+}
+
+/* 2. Opacity vs RGBA Comparison Section */
+.comparison-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.box {
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    color: #000000; /* Dark solid text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Element using opacity: 0.5 (Fades children too) */
+.opacity-box {
+    background-color: #ef4444;
+    opacity: 0.5;
+}
+
+/* Element using RGBA (Isolates background transparency only) */
+.rgba-box {
+    background-color: rgba(239, 68, 68, 0.5);
+}
