@@ -1,30 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Positioning - Ex01</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>EX01</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- 1. Pinned Navigation Bar -->
-    <nav class="navbar">
-        <h2>My Dashboard</h2>
-    </nav>
 
-    <div class="main-content">
-        <!-- 2. Card Container (relative) -->
-        <div class="card">
-            <!-- 3. Absolute Notification Badge -->
-            <span class="badge">NEW</span>
-            <h3>Notification Card</h3>
-            <p>This card demonstrates absolute positioning anchored to a relative container.</p>
-        </div>
+  <nav class="nav-container">
+
+    <div class="logo">
+      EX01
     </div>
 
-    <!-- 4. Fixed Back to Top Button -->
-    <a href="#" class="back-to-top">Top ↑</a>
+    <ul class="nav-links">
+      <li><a href="#card1">one</a></li>
+      <li><a href="#card2">Two</a></li>
+      <li><a href="#card3">Three</a></li>
+      <li><a href="#card4">four</a></li>
+    </ul>
+
+  </nav>
+
+
+  <main>
+
+
+    <section id="cards" class="card-container">
+
+      <!-- Card One -->
+      <a href="#card1" class="card card-purple">
+
+        <span class="badge">NEW</span>
+
+        <h2>Card One</h2>
+
+
+      </a>
+
+
+
+      <a href="#card2" class="card card-blue">
+
+        <span class="badge">NEW</span>
+
+        <h2>Card Two</h2>
+
+
+      </a>
+
+
+
+      <a href="#card3" class="card card-pink">
+
+        <span class="badge">NEW</span>
+
+        <h2>Card Three</h2>
+
+
+      </a>
+
+
+      <!-- Card Four -->
+      <a href="#card4" class="card card-orange">
+
+        <span class="badge">NEW</span>
+
+        <h2>Card Four</h2>
+
+
+      </a>
+
+    </section>
+
+
+
+
+    <section id="card1" class="content-section">
+      <h2>Card One</h2>
+      <p>Welcome to my site.</p>
+    </section>
+
+
+    <section id="card2" class="content-section">
+      <h2>Card Two</h2>
+      <p>This is my Second time trying out styles</p>
+    </section>
+
+
+    <section id="card3" class="content-section">
+      <h2>Card Three</h2>
+      <p>Ok ok it was more than 2 times </p>
+    </section>
+
+
+    <section id="card4" class="content-section">
+      <h2>Card Four</h2>
+      <p>Boooo</p>
+    </section>
+
+  </main>
+
+
+
+  <a href="#cards" class="back-to-top">
+    Top
+  </a>
 
 </body>
+
 </html>
