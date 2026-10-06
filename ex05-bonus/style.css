@@ -21,7 +21,6 @@ body {
     gap: 16px;
 }
 
-/* Spinner Loader using @keyframes, transform, animation-iteration-count */
 .spinner {
     width: 60px;
     height: 60px;
