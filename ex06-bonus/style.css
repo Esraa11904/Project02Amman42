@@ -17,7 +17,6 @@ body {
     padding: 20px;
 }
 
-/* Interactive Card with translateY and scale */
 .card {
     background-color: #ffffff;
     padding: 30px;
@@ -43,7 +42,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Interactive Button Micro-Interaction */
 .btn {
     background-color: #2563eb;
     color: #ffffff;
