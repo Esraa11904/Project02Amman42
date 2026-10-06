@@ -4,14 +4,11 @@
     height: 100px;
     border: 50px solid #3b82f6;
 }
-
-
 .rectangle {
     width: 160px;
     height: 90px;
     border: 45px solid #10b981;
 }
-
 
 .circle {
     width: 100px;
@@ -20,14 +17,12 @@
     border-radius: 50%;
 }
 
-
 .pill {
     width: 160px;
     height: 80px;
     border: 40px solid #8b5cf6;
     border-radius: 50px;
 }
-
 
 .triangle {
     width: 0;
